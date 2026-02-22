@@ -5,8 +5,6 @@ import { PDFReport } from "@/components/PDFReport";
 import { EMAIL_RECIPIENTS, EMAIL_FROM, type FormData } from "@/lib/constants";
 import React from "react";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 function formatDate(dateStr: string): string {
   if (!dateStr) return "Unknown Date";
   const [y, m, d] = dateStr.split("-");
@@ -15,6 +13,7 @@ function formatDate(dateStr: string): string {
 
 export async function POST(request: Request) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const data: FormData = await request.json();
 
     // Validate required fields
