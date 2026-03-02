@@ -147,7 +147,7 @@ export function PDFReport({ data }: PDFReportProps) {
         {AAR_SECTIONS.map((section, i) => (
           <View key={section.id} style={styles.sectionContainer} wrap={false}>
             <Text style={styles.sectionTitle}>
-              {section.icon} {i + 1}. {section.title}
+              {i + 1}. {section.title}
             </Text>
             {data.sections[section.id] ? (
               <Text style={styles.sectionBody}>
