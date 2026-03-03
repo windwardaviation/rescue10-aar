@@ -57,7 +57,29 @@ export const AAR_SECTIONS: AARSection[] = [
   },
 ];
 
-export const EMAIL_RECIPIENTS = ["office@windwardaviation.com"];
+export const EMAIL_RECIPIENTS = [
+  "Alexander.Parker@co.maui.hi.us",
+  "Timothy.Herrick@co.maui.hi.us",
+  "Kristopher.Sakamoto@co.maui.hi.us",
+  "Lee.Theros@co.maui.hi.us",
+  "Kaulana.Kino@co.maui.hi.us",
+  "Patrick.Fukuda@co.maui.hi.us",
+  "Lawrence.Joyo@co.maui.hi.us",
+  "Alma.Aiwohi@co.maui.hi.us",
+  "Peter.Vanderpoel@co.maui.hi.us",
+  "laakea.chang@co.maui.hi.us",
+  "Dennis.swain@co.maui.hi.us",
+  "Kyle.Williams@co.maui.hi.us",
+  "Brandon.Sturm@co.maui.hi.us",
+  "Simon.Quirk@co.maui.hi.us",
+  "Kanoa.Shannon@co.maui.hi.us",
+  "greatbaldeagle1@gmail.com",
+  "petevorhes@gmail.com",
+  "ops@windwardaviation.com",
+  "jacob@windwardaviation.com",
+  "office@windwardaviation.com",
+  "Reza.Azman@co.maui.hi.us",
+];
 
 export const EMAIL_FROM = "Rescue 10 AAR <air1@windwardaviation.com>";
 
